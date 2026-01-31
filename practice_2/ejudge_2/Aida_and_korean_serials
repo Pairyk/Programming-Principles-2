@@ -1,0 +1,18 @@
+def main():
+    n = int(input())
+    doramas = {}
+
+    for _ in range(n):
+        line = input().split()
+        name = line[0]
+        episodes = int(line[1])
+
+        doramas[name] = doramas.get(name, 0) + episodes
+
+    # Sort by name (lexicographically) and print
+    for name in sorted(doramas.keys()):
+        print(f"{name} {doramas[name]}")
+
+
+if __name__ == "__main__":
+    main()
