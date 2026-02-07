@@ -7,7 +7,6 @@ def main():
         if string not in first_occurrence:
             first_occurrence[string] = i
 
-    # Sort by string (lexicographically) and print
     for string in sorted(first_occurrence.keys()):
         print(f"{string} {first_occurrence[string]}")
 

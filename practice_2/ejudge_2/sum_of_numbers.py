@@ -1,5 +1,5 @@
 def main():
-    n = int(input())
+    _ = int(input())
     num = input().split()
     sum_result = sum(int(x) for x in num)
     print(sum_result)
