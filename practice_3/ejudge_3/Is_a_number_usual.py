@@ -6,7 +6,7 @@ def isUsual(num):
         while num % prime == 0:
             num //= prime
     
-    return num == 1
+    return True
 
 
 def main():

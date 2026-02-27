@@ -43,4 +43,3 @@ else:
     role, name, base_salary = info.split() 
     worker = Intern(name, int(base_salary))
     worker.display()
-

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+myenv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+config.local.py
+*.log
+AM_I_GENIUS?.py
+parser.py
