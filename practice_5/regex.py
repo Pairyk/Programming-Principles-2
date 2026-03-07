@@ -6,7 +6,6 @@ with open('raw') as file:
 all_prices = re.findall(r"\d+\s?\d*,00", data)
 
 all_names = re.findall(r"\d+\.\n(.+)", data)
-
 amount_of_products = len(all_names)
 
 date_and_time = re.findall(r"\d{2}\.\d{2}\.\d{4} \d{2}:\d{2}:\d{2}", data)
