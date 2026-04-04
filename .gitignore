@@ -16,7 +16,8 @@ build/
 *.swp
 *.swo
 *~
-myenv
+.venv
+.env
 
 # OS
 .DS_Store
